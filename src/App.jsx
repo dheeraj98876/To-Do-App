@@ -19,7 +19,7 @@ function App() {
 
   return (
  
-    
+     <header className='header'><h1> To Do App</h1> </header>
     <div className="App">
       <h1 className='to-do-apph1'>To-Do App</h1>
       <div className="todo-input">
@@ -38,6 +38,8 @@ function App() {
         ))}
       </ul>
     </div>
+    <footer className='footer'> Copyright © 2025 Dheeraj Singh Bisht To Do App  </footer>
+
   );
 }
 
